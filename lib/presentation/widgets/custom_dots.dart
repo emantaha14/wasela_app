@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
-import 'package:my_todo_app/shared/styles/colors.dart';
 
 class CustomDots extends StatelessWidget {
   final int myindex;
