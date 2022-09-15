@@ -1,3 +1,9 @@
+
+/// steps to make this file works
+///  1. add images in the same path below
+///  2. add assets in pubspec.ymal file
+
+
 class AppAssets {
   static const String addSquare1 = "assets/icons/add-square-1.svg";
   static const String addSquare = "assets/icons/add-square.svg";

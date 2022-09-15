@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:wasela/shared/asset_path.dart';
-import 'package:wasela/shared/themes.dart';
+import 'package:wasela/core/constants/asset_path.dart';
+import 'package:wasela/core/style/themes.dart';
 
 void main() {
   runApp(const MyApp());
