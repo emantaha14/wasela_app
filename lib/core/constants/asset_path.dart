@@ -5,6 +5,8 @@
 
 
 class AppAssets {
+
+  /// icons
   static const String addSquare1 = "assets/icons/add-square-1.svg";
   static const String addSquare = "assets/icons/add-square.svg";
   static const String apple = "assets/icons/apple.svg";
@@ -24,4 +26,8 @@ class AppAssets {
   static const String smartCar = "assets/icons/smartCar.svg";
   static const String trash = "assets/icons/trash.svg";
   static const String verify = "assets/icons/verify.svg";
+
+  /// images
+  static const String logo = "assets/images/logo.png";
+  static const String logo_800 = "assets/images/logo_800.png";
 }
