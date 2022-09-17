@@ -4,10 +4,10 @@ import 'package:wasela/core/style/colors.dart';
 
 class Apptheme {
   static ThemeData lightTheme = ThemeData(
-    scaffoldBackgroundColor: AppColors.white,
-    fontFamily: "Montserrat",
-    colorScheme: const ColorScheme.light(
-      primary: AppColors.orange,
+    scaffoldBackgroundColor: kWhite,
+    // fontFamily: "Montserrat",
+    colorScheme: ColorScheme.light(
+      primary: kBlue,
     ),
     textTheme: TextTheme(
       
@@ -15,21 +15,21 @@ class Apptheme {
       headline1: TextStyle(
         fontSize: 20.sp,
         fontWeight: FontWeight.bold,
-        color: AppColors.brawn,
+        color: kBlue,
       ),
 
       /// the subtitle text
       subtitle1: TextStyle(
         fontSize: 12.sp,
         fontWeight: FontWeight.w500,
-        color: AppColors.brawn,
+        color: kBlack,
       ),
 
       /// the hint subtitle
       subtitle2: TextStyle(
         fontSize: 11.sp,
         fontWeight: FontWeight.w500,
-        color: AppColors.lightBrawn,
+        color: kBlack,
       ),
     ),
   );
